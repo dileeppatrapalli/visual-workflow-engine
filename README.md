@@ -1,4 +1,4 @@
-<title>Visual Workflow Engine</title>
+# Visual Workflow Engine
 
 A visual workflow / pipeline editor that allows users to design, connect, and analyze pipelines visually.
 
