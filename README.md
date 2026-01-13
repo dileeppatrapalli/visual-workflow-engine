@@ -1,9 +1,20 @@
-# VectorShift Pipeline Editor
+<title>Visual Workflow Engine</title>
 
-This project is a **visual workflow / pipeline editor** built as part of the **VectorShift Frontend Technical Assessment**.
+A visual workflow / pipeline editor that allows users to design, connect, and analyze pipelines visually.
 
 Users can create pipelines using draggable nodes, connect them visually, and submit the pipeline to a backend service that analyzes the structure of the graph.
 
+---
+
+## 🚀 Live Deployment
+
+- **Frontend (Netlify):**  
+  👉 https://visual-workflow-engine.netlify.app
+
+- **Backend API (Render):**  
+  👉 https://visual-workflow-engine-1.onrender.com  
+  👉 Health check: https://visual-workflow-engine-1.onrender.com/
+  
 ---
 
 ## ✨ Features
@@ -125,21 +136,13 @@ View pipeline analysis in the alert
 
 Create a cycle in the graph to verify DAG detection.
 
-✅ Assessment Coverage
-Requirement	Status
-Node Abstraction	✅ Completed
-Styling	✅ Completed
-Text Node Logic	✅ Completed
-Backend Integration	✅ Completed
 📝 Notes
 
 Demo nodes are included only to demonstrate abstraction flexibility.
 
-The original project structure provided in the assessment was preserved and extended.
+Frontend and backend are deployed separately using Netlify and Render.
 
 👤 Author
 
-Dileep
+Dileep Patrapalli
 Frontend / Full-Stack Developer
-
-
